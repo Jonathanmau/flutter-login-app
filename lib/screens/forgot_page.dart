@@ -54,7 +54,7 @@ class _ForgotPageState extends State<ForgotPage> {
               Container(
                 padding: EdgeInsets.all(10),
                 child: Text(
-                  "Masukkan email untuk reset password anda",
+                  "Masukkan email untuk reset password",
                   textAlign: TextAlign.center,
                 ),
               ),
