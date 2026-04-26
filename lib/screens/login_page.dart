@@ -55,7 +55,7 @@ class _LoginPageState extends State<LoginPage> {
       // bagian atas aplikasi
       appBar: AppBar(
         title: Text(
-          "Login Page",
+          "Halaman Login",
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
         centerTitle: true,
