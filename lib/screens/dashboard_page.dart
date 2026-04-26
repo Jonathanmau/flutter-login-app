@@ -16,7 +16,7 @@ class DashboardPage extends StatelessWidget {
     return Scaffold(
       // APPBAR
       appBar: AppBar(
-        title: Text("Dashboard"),
+        title: Text("Dashboard Saya"),
 
         // tombol logout di kanan atas
         actions: [

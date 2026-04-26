@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 
-// widget tombol reusable
 class CustomButton extends StatelessWidget {
-  final String text; // teks tombol
-  final VoidCallback onPressed; // aksi saat ditekan
-  final bool isLoading; // status loading
+  final String text;
+  final VoidCallback onPressed;
+  final bool isLoading;
 
   const CustomButton({
     required this.text,
@@ -14,10 +13,22 @@ class CustomButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return isLoading
-        // loading tampil spinner
-        ? CircularProgressIndicator()
-        // jika tidak tampil tombol
-        : ElevatedButton(onPressed: onPressed, child: Text(text));
+    return SizedBox(
+      width: double.infinity,
+      height: 50,
+      child: ElevatedButton(
+        onPressed: isLoading ? null : onPressed,
+        child: isLoading
+            ? SizedBox(
+                width: 20,
+                height: 20,
+                child: CircularProgressIndicator(
+                  strokeWidth: 2,
+                  color: Colors.white,
+                ),
+              )
+            : Text(text),
+      ),
+    );
   }
 }

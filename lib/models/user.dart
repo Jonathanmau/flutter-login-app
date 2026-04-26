@@ -6,6 +6,6 @@ class User {
   // constructor untuk inisialisasi object User
   User({
     required this.email,
-    this.name = "Guest", // default jika tidak diisi
+    this.name = "guest", // default jika tidak diisi
   });
 }
