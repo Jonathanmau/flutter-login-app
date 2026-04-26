@@ -53,7 +53,7 @@ class _LoginPageState extends State<LoginPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       // bagian atas aplikasi
-      appBar: AppBar(title: Text("Login")),
+      appBar: AppBar(title: Text("Welcome Jojo App")),
 
       body: SafeArea(
         child: Padding(
