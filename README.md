@@ -1,17 +1,32 @@
-# jojo
+# Flutter Login App
 
-A new Flutter project.
+## Deskripsi Aplikasi
+Aplikasi ini adalah aplikasi login sederhana berbasis Flutter yang memiliki fitur autentikasi login, halaman forgot password, dan dashboard setelah berhasil login. \
 
-## Getting Started
+## Daftar Fitur
+- Login dengan validasi email dan password
+- Halaman Forgot Password
+- Dashboard setelah login berhasil
+- Custom reusable widget (button & textfield)
+- Loading state saat proses login
+- Navigasi antar halaman menggunakan route
+- Form validation
 
-This project is a starting point for a Flutter application.
+## Cara Menjalankan Aplikasi
+flutter pub get
+flutter run
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshot Aplikasi
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+### Login Page
+![Login](assets/login.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Forgot Password Page
+![Forgot](assets/forgot.png)
+
+### Dashboard Page
+![Dashboard](assets/dashboard.png)
+
+## Daftar Package yang Digunakan
+- flutter (SDK utama Flutter)
+- cupertino_icons: ^1.0.8 (ikon bawaan iOS style)
